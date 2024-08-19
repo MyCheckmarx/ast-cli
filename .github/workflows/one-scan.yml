@@ -19,5 +19,5 @@ jobs:
           base_uri: ${{ secrets.BASE_URI_CANARY }}
           cx_tenant: ${{ secrets.TENANT_CANARY }}
           cx_client_id: ${{ secrets.CLIENT_ID_CANARY }}
-          cx_client_secret: ${{ secrets.AST_CLIENT_SECRET_CANARY }}
+          cx_client_secret: ${{ secrets.CLIENT_SECRET_CANARY }}
           additional_params: --scan-types container-security --debug
